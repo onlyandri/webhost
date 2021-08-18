@@ -1,0 +1,193 @@
+
+.top-nav-bar{
+	height: 57px;
+	top: 0;
+	position: sticky;
+	background: #fff;
+	margin-bottom: 20px;
+	border-bottom: 3px solid orange;
+	z-index: 2;
+}
+.logo{
+
+	height: 40px;
+	margin: 5px 10px;
+}
+.form-control{
+
+	margin-top: 9px;
+	margin-left: 30px;
+	border: 1px solid orange !important;
+	border-top-left-radius: 20px !important;
+	border-bottom-left-radius: 20px !important;
+	border-top-right-radius: 0 !important;
+	border-bottom-right-radius: 0 !important;
+	box-shadow: none !important;
+}
+.input-group-text{
+
+	background: orange !important;
+	border: 1px solid orange !important;
+	margin: 8.5px 10px 3px 0 !important;
+	border-top-left-radius: 0px !important;
+	border-bottom-left-radius: 0px !important;
+	border-top-right-radius: 20px !important;
+	border-top-right-radius: 20px !important;
+	cursor: pointer;
+
+
+}
+.search-box{
+	display: inline-flex;
+	width: 60%;
+}
+.fa-search{
+
+	color: white;
+}
+.menu-bar{
+	width: 40%;
+	height: 57px;
+	float: right;
+}
+
+.menu-bar ul{
+	display: inline-flex;
+	float: right;
+}
+
+.menu-bar ul li{
+	border-left: 1px solid #fff;
+	list-style-type: none;
+
+	padding: 15px 35px;
+	text-align: center;
+	background-color: orange;
+	cursor: pointer; 
+}
+.menu-bar ul li a{
+	font-size: 16px;
+	font-weight: bold;
+	color: #fff;
+	text-decoration: none;
+}
+
+.fa-shopping-basket{
+margin-right: 5px;
+}
+
+.fa-sign-in-alt{
+	margin-right: 5px;
+}
+.fa-user-plus{
+	margin-right: 5px;
+}
+
+@media only screen and (max-width: 980px){
+
+	.top-nav-bar{
+		height: 118px;
+		border-bottom: 0;
+	}
+	.search-box{
+		width: 100%;
+	}
+	.menu-bar{
+		width: 100%;
+
+	}
+	.menu-bar ul{
+		width: 100%;
+		margin: 10px 0;
+	}
+	.menu-bar ul li{
+		width: 100%;
+		height: 100%
+	}
+}
+
+/*.jumbotron{
+
+	background-image: url('../img/kereta.jpg');
+	background-size: cover;
+	height: 770px;
+	text-align: center;
+	margin-top: -50px;
+}
+.jumbotron .display-4{
+	color: white;
+}
+.jumbotron p{
+	color: white;
+	font-size: 25px;
+}
+.jumbotron hr{
+
+	border-color: #F05F40;
+	width: 250px;
+	border-width: 3px;
+}
+
+.jumbotron .btn{
+
+	background-color: orange;
+	border: none;
+	border-radius: 25px;
+	margin-top: 40px; 
+}
+.jumbotron .logo{
+
+	height: 120px;
+	margin: 0px 0px;
+}*/
+
+.carousel{
+	margin-top: -50px;
+}
+
+.carousel-item {
+	height: 550px;
+
+
+}
+
+.carousel-item img{
+	margin-top: -120px;
+}
+.carousel-item .display-4{
+	color: white;
+	margin-top: -470px;
+}
+.carousel-item p{
+	color: white;
+	font-size: 25px;
+}
+.carousel-item hr{
+
+	border-color: #F05F40;
+	width: 250px;
+	border-width: 3px;
+}
+
+.carousel-item .btn{
+
+	background-color: orange;
+	border: none;
+	border-radius: 25px;
+	margin-top: 40px; 
+}
+.carousel-item .logo{
+
+	height: 120px;
+	margin: 0px 0px;
+}
+.card p{
+
+	margin-top: -10px;
+	margin-bottom: 20px;
+}
+
+.card:hover{
+	box-shadow: 2px 2px 2px rgba(0,0,0,0.4);
+	transform: scale(1.0);
+}

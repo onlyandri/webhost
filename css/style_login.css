@@ -1,0 +1,63 @@
+body{
+
+	background-image: url(../img/bgjm.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+	font-family: new times roman;
+}
+h1{
+
+	color: white;
+	margin-top: 50px;
+}
+.input-group{
+
+	margin-top: 30px;
+
+}
+.input-group-text{
+
+	background : transparent;
+	border-bottom: 0px;
+	border :0px;
+	border-bottom: 1px solid white;
+	color: white;
+	font-size: 10px;
+	padding: 10px;
+
+}
+
+.form-control{
+
+background : transparent;
+	border-bottom: 0px;
+	border :0px;
+	border-bottom: 1px solid white;
+	color: white;
+	font-size: 10px;
+	height: 45px;
+	padding:20px;
+	font-size: 20px;
+	color: white;
+
+}
+p{
+	font-size: 20px;
+	margin-top: 20px;
+	color: white;
+}
+
+.btn-success{
+
+	margin-left: 190px;
+	font-size: 20px;
+	width: 190px;
+
+}
+.col-md-6{
+
+	background: rgba(000,000,000,0.4);
+	margin-top: 50px;
+	height: 450px;
+	/*box-shadow: 1px 4px 40px black;*/
+}
